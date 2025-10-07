@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 70hv;
+    padding: 100px 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    color: #333128;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #4E4B5076;
+    padding: 200px;
+    min-width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    color: #ffffff;
+}
+
+.borra {
+    background-color: #8DC84B;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt span {
+    font-size: 16px;
+    color: #8DC84B;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.header-txt h1 {
+    font-size: 55px;
+    line-height: 1;
+    color: #333128;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    color: #181713;
+    margin-bottom: 45px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 25px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #8DC84B;
+    text-transform: capitalize;
+}
+
+.header-img {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.header-img img {
+    width: 400px;
+}
+
+.informacion {
+    width: 70%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 25px 75px;
+    margin-top: -75px;
+    background-color: #ffffff;
+}
+
+.informacion-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion-1 img {
+    width: 35px;
+}
+
+h3 {
+    font-size: 17px;
+    color: #181713;
+    text-transform: capitalize;
+}
+
+.informacion-1 p {
+    margin-bottom: 0;
+}
+
+.oferta {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta-1 {
+    text-align: center;
+    flex-basis:  calc(25% - 20px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+}
+
+.oferta-1 img {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.oferta-1 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 600;
+    color: #8DC84B;
+}
+
+.producto {
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.producto h2 {
+    font-size: 40px;
+    color: #181713;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+}
+
+.producto-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.producto {
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+}
+
+.producto img {
+    width: 150px;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    color: #8DC84B;
+}
+
+.producto p {
+    font-size: 15px;
+    margin: 0;
+    color: #181713;
+    font-weight: 600;
+}
+
+.btn-2 {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 7px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #8DC84B;
+}
+
+
+.footer {
+  background-color: #535252; 
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer .social-links {
+  margin-bottom: 10px;
+}
+
+.footer .social-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: #bfbfbf; 
+}
+
+.footer .copy {
+  font-size: 14px;
+}
